@@ -23,8 +23,8 @@ Examples are organized as [Jupyter Notebooks](https://jupyter.org/) and the enti
   
 	![link to the notebook](notebook.png "a notebook")
  
-  The ``work`` folder is mapped to the folder ``CryptoNotebooks``.
-  The container will be running until the ShutDown of the lab (``File->ShutDown``).
+  The ``work`` folder is mapped to the ``notebooks`` subfolder.
+  The container will be running until the ShutDown of the lab (``File->ShutDown``) so you can safely close the tab or browser without loosing you work.
 
 # Usefull links
 
