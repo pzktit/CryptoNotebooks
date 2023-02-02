@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Please modify tag
+docker build . --file Dockerfile --tag pzktit/cryptonotebooks

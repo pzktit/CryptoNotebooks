@@ -1,0 +1,9 @@
+jupyter:
+  image: pzktit/cryptonotebooks
+  container_name: cryptonotebooks
+  restart: "on-failure"
+  ports:
+    - 8888:8888
+  environment:
+    JUPYTER_ENABLE_LAB: "yes"
+    JUPYTER_TOKEN: "password"
