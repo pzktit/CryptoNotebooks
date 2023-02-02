@@ -1,12 +1,12 @@
 # Crypto Notebooks
 
-Basic cryptographic concepts demonstated using [PyCryptodome library](https://pypi.org/project/pycryptodome/).
+Demonstration of basic cryptographic concepts with [PyCryptodome library](https://pypi.org/project/pycryptodome/).
 Examples are organized as [Jupyter Notebooks](https://jupyter.org/) and the entire runtime environment is enclosed in a 
-[Docker](https://www.docker.com/) image. So you need Docker for the follwing instructions to work.
+[Docker](https://www.docker.com/) image. So you need [Docker](https://www.docker.com/) for the follwing instructions to work.
 
 ## Experiment with notebooks
 
-Just clone this repository
+Just clone project repository
 ```
 git clone https://github.com/pzktit/CryptoNotebooks
 cd CryptoNotebooks
