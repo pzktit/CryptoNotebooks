@@ -11,6 +11,7 @@ Examples are organized as [Jupyter Notebooks](https://jupyter.org/) and the enti
 	```
 	git clone https://github.com/pzktit/CryptoNotebooks
 	cd CryptoNotebooks
+	git checkout 22na23
 	```
 * Run the following
 	```
