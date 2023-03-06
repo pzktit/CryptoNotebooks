@@ -27,7 +27,7 @@ The container will be running until ShutDown a the lab (``File->ShutDown``).
 2. You can run the image from command line in interactive mode
    ```
     docker run --rm -ti --name cryptonotebooks \
-	   -e JUPYTER_ENABLE_LAB=yes -p 8888:8888 -v ${PWD}:/home/jovyan/work pzktit/cryptonotebooks
+	   -e JUPYTER_ENABLE_LAB=yes -p 8888:8888 -v ${PWD}:/home/jovyan/work ghcr.io/pzktit/cryptonotebooks
 	 ```
 3. You can customize the image up to your needs. Please go to ``build_your_image`` folder, modify the ``Dockerfile`` and build 
    ```

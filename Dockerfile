@@ -5,8 +5,6 @@ FROM $BASE_CONTAINER
 # change in date forces rebuild of the image
 ENV REFRESHED_AT 2023.02.02
 
-#RUN echo 'Acquire::http { Proxy "http://172.18.0.1:3142"; };' >> /etc/apt/apt.conf.d/01proxy
-
 USER root
 
 ENV DEBIAN_FRONTEND noninteractive

@@ -1,5 +1,5 @@
 jupyter:
-  image: pzktit/cryptonotebooks
+  image: ghcr.io/pzktit/cryptonotebooks
   container_name: cryptonotebooks
   restart: "on-failure"
   ports:
